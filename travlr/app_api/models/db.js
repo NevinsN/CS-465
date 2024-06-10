@@ -62,7 +62,7 @@ process.exit(0);
 });
 
 // Make initial connection to DB
-// connect();
+connect();
 
 // Import Mongoose schema
 require('./travlr');
