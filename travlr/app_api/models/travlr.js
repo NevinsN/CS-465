@@ -12,4 +12,7 @@ const tripSchema = new mongoose.Schema({
     description: { type: String, required: true }
 });
 
-mongoose.model('trips', tripSchema);
+const Trip = mongoose.model('trips', tripSchema);
+module.exports = Trip;
+
+//mongoose.model('trips', tripSchema);
